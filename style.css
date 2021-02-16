@@ -1,6 +1,98 @@
 
 
 
+body{
+    margin: 0;
+    color: #333;
+  }
+  
+  .header{
+    display: grid;
+    grid-template-areas: 'menu search word logo subscribe login';
+    grid-template-columns: 0.2fr 0.2fr 0.4fr 4fr 0.3fr 0.3fr;
+    grid-gap: 10px;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 4px 15px 2px;
+    /* width: 100%; */
+  }
+  
+  #profile{
+    display: none;
+  }
+  
+  .header a{
+    text-decoration: none;
+    padding-top: 2px;
+  }
+  
+  .header .icon{
+    padding: 4% 0;
+  }
+  
+  .header a:hover{
+    text-decoration: underline;
+  }
+  
+  .word{
+    grid-area: word;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 3px;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 14.25px;
+    letter-spacing: 0.1px;
+    line-height: 19px;
+    color: black;
+  }
+  
+  .menu{
+    grid-area: menu;
+  }
+  
+  .search{
+    grid-area: search;
+  }
+  
+  .logo{
+    grid-area: logo;
+    margin: auto;
+  }
+  
+  .subscribe{
+    grid-area: subscribe;
+  }
+  
+  .login{
+    grid-area: login;
+  }
+  
+  button{
+    background-color: rgb(86, 123, 149);
+    border: 1px solid rgb(50, 104, 145);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+    line-height: 11px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+  }
+  
+  /* ------------------------------------------------------------ */
+  /* Title */
+  .title{
+    width: 100%;
+    max-width: 1000px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  
+  .title-img{
+    width: 100%;
+  }
+  
+
 
 
 
