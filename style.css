@@ -44,6 +44,12 @@ body{
     line-height: 19px;
     color: black;
   }
+
+  .ul{
+    word-spacing: 20px;
+    width: 4em;
+    height: 4em;
+  }
   
   .menu{
     grid-area: menu;
