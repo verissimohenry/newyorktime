@@ -4,7 +4,7 @@
 
 body{
     margin: 0;
-    color: #333;
+    color: rgb(15, 15, 15);
   }
   
   .header{
@@ -114,6 +114,25 @@ figcaption{
   }
   
   h2{
+    color: #000000;
+    width: 50%;
+    margin: auto;
+    font-family: nyt-franklin,Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-size-adjust: 100%;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing:normal;
+    font-size: 14.25px;
+    line-height: 19px;
+    font:inherit;
+    list-style-type: armenian;
+    display: flex;
+    border-bottom: 1px solid rgb(31, 31, 31);
+    vertical-align: baseline;
+  }
+  
+  h3{
     width: 50%;
     margin: auto;
     font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
@@ -160,11 +179,48 @@ figcaption{
   
   .article-body{
     width: 50%;
-    margin: 50px auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: calc(100% - 40px);
+    max-width: 600px;
     text-align: left;
-    font-size: 1.25rem;
-    line-height: 1.875rem;
+    font-size: 1.125rem;
+    line-height: 1.5625rem;
     font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    text-align: center;
+  }
+
+  .first_article{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: calc(100% - 40px);
+    max-width: 600px;
+    text-align: left;
+    font-size: 1.125rem;
+    line-height: 1.5625rem;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  } 
+  
+  
+
+  .second_article{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: calc(100% - 40px);
+    max-width: 600px;
+    text-align: left;
+    font-size: 1.125rem;
+    line-height: 1.5625rem;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+      
   }
   
   .final-credit{
@@ -177,6 +233,8 @@ figcaption{
     color: rgb(102, 102, 102);
     margin: 0;
   }
+
+
 
   .third_article img{
     width: 100%;
@@ -463,6 +521,17 @@ figcaption{
   /* Media Query */
   
   @media only screen and (max-width: 1024px) {
+
+    .body{
+     margin-left: auto;
+     margin-right: auto;
+     font-size: 1.25rem;
+     line-height: 1.875rem;
+     margin-bottom: 0.9375rem;
+     font-family: nyt-imperial,georgia,'times new roman',times,serif;
+     width: calc(100% - 40px);
+     max-width: 600px: 
+    }
   
     .header{
       display: grid;
@@ -494,14 +563,11 @@ figcaption{
     }
   
     .title h2{
-      width: 100%;
-      margin: auto;
-      font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
-      font-weight: 500;
-      font-style: italic;
-      font-size: 2rem;
-      line-height: 3rem;
-      max-width: 600px;
+        font-weight: 700;
+        font-size: 100%;
+        text-size-adjust: 100%;
+        font: inherit;
+        vertical-align: baseline;
     }
   
     .title figcaption{
