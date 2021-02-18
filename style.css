@@ -163,7 +163,7 @@
   vertical-align: baseline;
 }
 
-.h3{
+.h3 {
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   font-weight: 700;
   font-style: italic;
@@ -630,7 +630,6 @@
   margin-bottom: 30px;
   grid-gap: 10px;
 }
-
 
 /* ------------------------------------------------------------ */
 /* Media Query */
