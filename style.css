@@ -536,7 +536,7 @@ figcaption{
      margin-bottom: 0.9375rem;
      font-family: nyt-imperial,georgia,'times new roman',times,serif;
      width: calc(100% - 40px);
-     max-width: 600px: 
+     max-width: 600px; 
     }
   
     .header{
