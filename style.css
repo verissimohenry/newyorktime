@@ -75,7 +75,7 @@
   grid-area: login;
 }
 
-.sharing-links > ul > li {
+.sharing-links>ul>li {
   display: inline;
   color: #999;
   margin-right: 1rem;
@@ -99,7 +99,7 @@
   width: 20px;
 }
 
-.sharing-links ul > li > a:hover .share-item-svg {
+.sharing-links ul>li>a:hover .share-item-svg {
   background-color: #fff;
 }
 
