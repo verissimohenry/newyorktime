@@ -1,6 +1,6 @@
 /*...header...*/
 
-body {
+.body {
   margin: 0;
   color: rgb(15, 15, 15);
 }
@@ -70,20 +70,32 @@ body {
   grid-area: login;
 }
 
-button {
-  background-color: rgb(86, 123, 149);
-  border: 1px solid rgb(50, 104, 145);
-  border-radius: 5px;
-  color: rgb(255, 255, 255);
-  padding: 15px 32px;
-  text-align: center;
-  font-size: 11px;
-  line-height: 11px;
-  font-weight: 700;
-  margin: 4px 2px;
-  cursor: pointer;
-  letter-spacing: 0.05em;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
+.sharing-links > ul > li {
+  display: inline;
+  color: #999;
+  margin-right: 1rem;
+  width: 100%;
+}
+
+.sharing-links {
+  width: 400px;
+  padding-top: 1.25rem;
+  border-top: 1px solid #ebebeb;
+  margin: 0 auto;
+}
+
+.sharing-links .share-item-svg {
+  display: inline-block;
+  background-color: #eee;
+  border: 1px solid #eee;
+  border-radius: 100%;
+  padding: 5px;
+  height: 20px;
+  width: 20px;
+}
+
+.sharing-links ul > li > a:hover .share-item-svg {
+  background-color: #fff;
 }
 
 /* ------------------------------------------------------------ */
@@ -99,7 +111,19 @@ button {
   width: 100%;
 }
 
-figcaption {
+.title-1 {
+  color: #121212;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 1.9375rem;
+  line-height: 2.25rem;
+  margin: 0 20px 20px;
+  position: relative;
+  width: calc(100% - 40px);
+}
+
+.figcaption {
   text-align: left;
   color: rgb(125, 48, 48);
   margin-right: 20%;
@@ -115,17 +139,17 @@ figcaption {
   line-height: 1.25rem;
 }
 
-h2 {
+.h2 {
   color: #000000;
   width: 50%;
   margin: auto;
   font-family: nyt-franklin, Arial, Helvetica, sans-serif;
   text-align: center;
-  text-size-adjust: 100%;
+  text-size-adjust: 70%;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: normal;
-  font-size: 14.25px;
+  font-size: 13.25px;
   line-height: 19px;
   font: inherit;
   list-style-type: armenian;
@@ -134,18 +158,21 @@ h2 {
   vertical-align: baseline;
 }
 
-h3 {
+.h3 {
   width: 50%;
   margin: auto;
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
-  font-weight: 500;
+  font-weight: 700;
   font-style: italic;
-  font-size: 2.5rem;
-  line-height: 3rem;
-  max-width: 700px;
+  font-size: 1.9375rem;
+  line-height: 2.25rem;
+  margin: 0 20px 20px;
+  position: relative;
+  width: calc(100% - 40px);
+  max-width: 600px;
 }
 
-figure {
+.figure {
   margin-inline-start: 0;
   margin-inline-end: 0;
 }
@@ -176,6 +203,26 @@ figure {
   min-width: 120px;
 }
 
+.button {
+  color: rgb(255, 255, 255);
+  padding: 15px 32px;
+  text-align: center;
+  line-height: 11px;
+  font-weight: 700;
+  margin: 4px 2px;
+  cursor: pointer;
+  letter-spacing: 0.05em;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-family: "Libre Franklin", Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  width: 100%;
+  padding: 0.5rem 0;
+  background-color: rgb(86, 123, 149);
+  border: 1px solid rgb(50, 104, 145);
+  border-radius: 3px;
+  outline: none;
+}
+
 /* ------------------------------------------------------------ */
 /* Article-body */
 
@@ -188,10 +235,12 @@ figure {
   width: calc(100% - 40px);
   max-width: 600px;
   text-align: left;
-  font-size: 1.125rem;
   line-height: 1.5625rem;
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
-  text-align: center;
+  text-align: left;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 1rem;
 }
 
 .first_article {
@@ -256,56 +305,125 @@ figure {
   position: absolute;
   top: 17em;
   left: 16px;
-  font-size: 13px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 .second_left {
   position: absolute;
   top: 17em;
   left: 18.5em;
-  font-size: 13px;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 .third_left {
   position: absolute;
   top: 17em;
   left: 35.2em;
-  font-size: 13px;
+  position: absolute;
+  width: 228px;
+  font-weight: 300;
+  line-height: 17px;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 .forth_left {
   position: absolute;
   top: 17em;
   left: 53em;
-  font-size: 13px;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 .bottom_left {
   position: absolute;
   top: 38em;
   left: 1em;
-  font-size: 13px;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 .bottom_second_left {
   position: absolute;
   top: 38em;
   left: 18.5em;
-  font-size: 13px;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 .bottom_third_left {
   position: absolute;
   top: 38em;
   left: 35.2em;
-  font-size: 13px;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 .bottom_fourth_left {
   position: absolute;
   top: 38em;
   left: 53em;
-  font-size: 13px;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 .below_img {
@@ -330,6 +448,7 @@ figure {
   font-size: 30px;
   text-align: center;
 }
+
 .eight-pics {
   width: 80%;
   margin: 0px auto;
@@ -526,25 +645,48 @@ figure {
     display: grid;
     grid-template-areas: "menu logo profile";
     grid-template-columns: 0.2fr 4fr 0.3fr;
+    color: #000000;
+    width: 50%;
+    margin: auto;
+    font-family: nyt-franklin, Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-size-adjust: 70%;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: normal;
+    font-size: 13.25px;
+    line-height: 19px;
+    font: inherit;
+    list-style-type: armenian;
+    display: flex;
+    border-bottom: 1px solid rgb(31, 31, 31);
+    vertical-align: baseline;
   }
+
   .subscribe {
     display: none;
   }
+
   .word {
     display: none;
   }
+
   .search {
     display: none;
   }
+
   .login {
     display: none;
   }
+
   .header #profile {
     grid-area: profile;
   }
+
   .menu {
     margin-top: 15%;
   }
+
   #profile {
     grid-area: profile;
     display: grid;
@@ -580,6 +722,7 @@ figure {
   .social-media {
     padding-inline-end: 15%;
   }
+
   .nav-grid {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -593,5 +736,10 @@ figure {
 
   .nav-footer-container {
     grid-template-columns: auto auto auto;
+  }
+
+  .h3 {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
