@@ -14,6 +14,11 @@ body{
     grid-gap: 10px;
     border-bottom: 1px solid #e2e2e2;
     padding: 4px 15px 2px;
+    position: fixed;
+    background: white;
+    top: 0;
+    left: 0;
+    right: 0;
   }
   
   #profile{
@@ -530,7 +535,7 @@ figcaption{
      margin-bottom: 0.9375rem;
      font-family: nyt-imperial,georgia,'times new roman',times,serif;
      width: calc(100% - 40px);
-     max-width: 600px: 
+     max-width: 600px;
     }
   
     .header{
@@ -605,56 +610,14 @@ figcaption{
     .nav-footer-container{
     grid-template-columns: auto auto auto;
     }
-}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .footer1{
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 50px;
+      background-color: white;
+      border-top: #000000 solid 1px;
+      width: 100%;
+    }
