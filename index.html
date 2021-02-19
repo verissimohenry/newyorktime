@@ -493,9 +493,18 @@
                  </li>
                  <li>
                    <label for="msg">Message:</label>
-                   <textarea id="msg" name="user_message"></textarea>
+                   <textarea id="msg" name="user_message">Type your comment here…</textarea>
                  </li>
                 </ul>
+                <br>
+                <p>What is your overall opinion about this article</p>
+                   <input type="radio" id="positive" name="positive" value="positive">
+                   <label for="male">positive</label><br>
+                   <input type="radio" id="negative" name="negative" value="negative">
+                   <label for="negative">negative</label><br>
+                   <input type="radio" id="neutral" name="neutral" value="neutral">
+                   <label for="neutral">neutral</label>
+            </br>
                 <fieldset class="account-info">
                     <label>
                       Username
@@ -507,9 +516,9 @@
                     </label>
                   </fieldset>
                   <fieldset class="account-action">
-                    <input class="btn" type="submit" name="submit" value="Sign up">
+                    <input class="btn" type="submit" name="submit" value="Send">
                     <label>
-                      <input type="checkbox" name="remember"> Stay signed in
+                      <input type="checkbox" name="I want to subscribe to the newsletter"> I want to subscribe to the newsletter
                     </label>
                   </fieldset>
                </form>
