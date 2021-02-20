@@ -590,6 +590,7 @@ section.graphics div img {
 }
 
 /* Center the form on the page */
+
 /* Form outline */
 
 form {
@@ -597,7 +598,7 @@ form {
   width: 500px;
   padding: 1em;
   border: 1px solid #ccc;
-    border-radius: 1em;
+  border-radius: 1em;
 }
 
 ul {
@@ -606,7 +607,7 @@ ul {
   margin: 0;
 }
 
-form li + li {
+.form-li {
   margin-top: 1em;
 }
 
@@ -873,4 +874,4 @@ input {
     height: auto;
     max-width: 100%;
   }
-}
+} 

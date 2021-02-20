@@ -528,15 +528,15 @@
     </div>
     <form action="/my-handling-form-page" method="post">
         <ul>
-            <li>
+            <li class="form-li">
                 <label for="name">Name:</label>
-                <input id="name" type="text" name="user_name" />
+                <input class="input" id="name" type="text" name="user_name" />
             </li>
-            <li>
+            <li class="form-li">
                 <label for="mail">E-mail:</label>
-                <input id="mail" type="email" name="user_email" />
+                <input class="input" id="mail" type="email" name="user_email" />
             </li>
-            <li>
+            <li class="form-li">
                 <label for="msg">Message:</label>
                 <textarea id="msg" name="user_message">
 Type your comment here…</textarea>
@@ -544,27 +544,27 @@ Type your comment here…</textarea>
         </ul>
         <br />
         <p>What is your overall opinion about this article</p>
-        <input type="radio" id="positive" name="positive" value="positive" />
+        <input class="input" type="radio" id="positive" name="positive" value="positive" />
         <label for="positive">positive</label><br />
-        <input type="radio" id="negative" name="negative" value="negative" />
+        <input class="input" type="radio" id="negative" name="negative" value="negative" />
         <label for="negative">negative</label><br />
-        <input type="radio" id="neutral" name="neutral" value="neutral" />
+        <input class="input" type="radio" id="neutral" name="neutral" value="neutral" />
         <label for="neutral">neutral</label>
 
         <fieldset class="account-info">
             <label>
                 Username
-                <input type="text" name="username" />
+                <input class="input" type="text" name="username" />
             </label>
             <label>
                 Password
-                <input type="password" name="password" />
+                <input class="input" type="password" name="password" />
             </label>
         </fieldset>
         <fieldset class="account-action">
-            <input class="btn" type="submit" name="submit" value="Send" />
+            <input class="input btn" type="submit" name="submit" value="Send" />
             <label>
-                <input type="checkbox" name="I want to subscribe to the newsletter" />
+                <input class="input" type="checkbox" name="I want to subscribe to the newsletter" />
                 I want to subscribe to the newsletter
             </label>
         </fieldset>
