@@ -464,7 +464,7 @@ section.graphics div img {
   width: 20rem;
 }
 
-section.graphics div img p {
+.img-p {
   font-weight: 500;
   font-style: normal;
   margin: 0;
