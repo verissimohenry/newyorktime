@@ -643,11 +643,6 @@ textarea:focus {
   height: 5em;
 }
 
-.button {
-  padding-left: 90px;
-  margin-left: 0.5em;
-}
-
 .form {
   border: 1px solid #c6c7cc;
   border-radius: 5px;
@@ -867,4 +862,4 @@ fieldset {
     height: auto;
     max-width: 100%;
   }
-} 
+}
