@@ -531,29 +531,6 @@ section.graphics div img {
   text-decoration: none;
 }
 
-.nav-items-bold a {
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  height: 25px;
-  line-height: 15px;
-  color: rgb(51, 51, 51);
-  font-size: 15px;
-  text-decoration: none;
-  font-weight: bolder;
-}
-
-.nav-items-lite a {
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  height: 25px;
-  line-height: 15px;
-  color: rgb(51, 51, 51);
-  font-size: 11px;
-  text-decoration: none;
-}
-
-.nav-items-lite a:hover {
-  text-decoration: underline;
-}
-
 .top-divide {
   margin-top: 7px;
   margin-bottom: 8px;
@@ -571,7 +548,7 @@ section.graphics div img {
   padding-top: 9px;
 }
 
-.nav-footer-container a {
+.nav-footer-container-a {
   color: #666;
   font-size: 70%;
   white-space: nowrap;
