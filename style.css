@@ -59,7 +59,7 @@ body {
   text-decoration: none;
 }
 
-.sharing-links > ul > li {
+.sharing-links>ul>li {
   display: inline;
   color: #999;
   margin-right: 1rem;
@@ -91,7 +91,7 @@ body {
   width: 20px;
 }
 
-.sharing-links ul > li > a:hover .share-item-svg {
+.sharing-links ul>li>a:hover .share-item-svg {
   background-color: #fff;
   text-decoration: none;
 }
@@ -141,11 +141,9 @@ body {
   text-transform: uppercase;
   letter-spacing: normal;
   font-size: 13.25px;
-  line-height: 19px;
   list-style-type: armenian;
   display: flex;
   border-bottom: 1px solid rgb(31, 31, 31);
-  vertical-align: baseline;
 }
 
 .h3 {
@@ -179,7 +177,7 @@ body {
   justify-content: center;
 }
 
-.social-icon > a > i {
+.social-icon>a>i {
   padding: 10px 10px;
   font-size: 20px;
   margin-left: 30px;
@@ -211,7 +209,7 @@ body {
 
 .byWho {
   color: #333;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-family: nyt-franklin , helvetica , arial , sans-serif;
   font-weight: 900;
 }
 
@@ -226,7 +224,7 @@ body {
 .button {
   border-radius: 3px;
   cursor: pointer;
-  font-family: nyt-franklin,helvetica,arial,sans-serif;
+  font-family: nyt-franklin , helvetica , arial , sans-serif;
   -webkit-transition: ease 0.6s;
   transition: ease 0.6s;
   white-space: nowrap;
@@ -243,9 +241,8 @@ body {
   letter-spacing: 0.05em;
   padding: 11px 12px 8px;
   text-transform: uppercase;
-  text-indent: 0px;
+  text-indent: 0;
   text-shadow: none;
-  display: inline-block;
   text-align: center;
   align-items: flex-start;
   word-spacing: normal;
@@ -306,7 +303,7 @@ body {
   margin-top: 12px;
 }
 
-.editor-picks-list > * + * {
+.editor-picks-list>*+* {
   margin-top: 16px;
 }
 
