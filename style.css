@@ -303,7 +303,7 @@ body {
   margin-top: 12px;
 }
 
-.editor-picks-list > *+* {
+.editor-picks-list > * + * {
   margin-top: 16px;
 }
 
