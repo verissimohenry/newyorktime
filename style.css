@@ -66,6 +66,14 @@ body {
   width: 100%;
 }
 
+.writeup {
+  text-align: left;
+  font-size: 1.125rem;
+  line-height: 1.5625rem;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  text-decoration: none;
+}
+
 .sharing-links {
   width: 400px;
   padding-top: 1.25rem;
@@ -88,7 +96,7 @@ body {
   text-decoration: none;
 }
 
-.ice{
+.ice {
   height: auto;
   max-width: 100%;
   width: 100%;
