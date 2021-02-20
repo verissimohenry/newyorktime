@@ -638,24 +638,17 @@ textarea:focus {
   border-color: rgb(81, 108, 154);
 }
 
-textarea {
+.textarea {
   vertical-align: top;
   height: 5em;
 }
 
 .button {
   padding-left: 90px;
-}
-
-button {
   margin-left: 0.5em;
 }
 
-*:after {
-  box-sizing: border-box;
-}
-
-form {
+.form {
   border: 1px solid #c6c7cc;
   border-radius: 5px;
   font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -669,7 +662,7 @@ fieldset {
   padding: 0;
 }
 
-input {
+.input {
   border-radius: 5px;
   font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
