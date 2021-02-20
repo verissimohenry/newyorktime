@@ -522,7 +522,7 @@ section.graphics div img {
   margin-bottom: 6px;
 }
 
-.nav-items > a {
+.nav-item-a {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   height: 25px;
   line-height: 15px;
