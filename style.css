@@ -474,11 +474,6 @@ section.graphics div img p {
   color: #000;
 }
 
-section.graphics div p span {
-  font-weight: bold;
-  font-size: 1.1rem;
-}
-
 .iframe {
   width: 80%;
   margin-right: 50%;
