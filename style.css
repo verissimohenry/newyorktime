@@ -684,8 +684,12 @@ section.graphics div {
   top: 0;
   left: 0;
   right: 0;
-  background-color: #fffcfc;
-  margin-top: 10px;
+  background-color: white;
+  margin: 0px;
+  padding: 10px;
+  border: rgb(212, 212, 212) solid 1px;
+  z-index: 1;
+  min-height: 50px;
 }
 
 /* Center the form on the page */
