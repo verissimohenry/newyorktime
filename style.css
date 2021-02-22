@@ -685,7 +685,7 @@ section.graphics div {
   left: 0;
   right: 0;
   background-color: white;
-  margin: 0px;
+  margin: 0;
   padding: 10px;
   border: rgb(212, 212, 212) solid 1px;
   z-index: 1;
