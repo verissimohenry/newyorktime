@@ -368,8 +368,8 @@ body {
   margin-left: 100%;
   margin-block-start: 1.33em;
   margin-block-end: 1.33em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+ /* margin-inline-start: 0px;
+  margin-inline-end: 0px;*/
   font-weight: 700;
   color: black;
   border-bottom: 1px solid rgb(226, 226, 226);
@@ -555,7 +555,6 @@ section.graphics div {
   font-size: 100%;
   font-weight: 100;
   color: rgb(49, 48, 48);
-  ;
   font-family: nyt-cheltenham, georgia, times new roman, times, serif;
   display: block;
 }
@@ -658,7 +657,7 @@ section.graphics div {
   margin-left: auto;
   cursor: pointer;
   color: rgb(0, 0, 0);
-  text-align: center
+  text-align: center;
 }
 
 .nav-icons {
