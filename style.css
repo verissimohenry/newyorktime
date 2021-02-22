@@ -61,7 +61,7 @@ body {
   text-decoration: none;
 }
 
-.sharing-links>ul>li {
+.sharing-links > ul > li {
   display: inline;
   color: #999;
   margin-right: 1rem;
@@ -93,7 +93,7 @@ body {
   width: 20px;
 }
 
-.sharing-links ul>li>a:hover .share-item-svg {
+.sharing-links ul > li > a:hover .share-item-svg {
   background-color: #fff;
   text-decoration: none;
 }
@@ -183,7 +183,7 @@ body {
   justify-content: center;
 }
 
-.social-icon>a>i {
+.social-icon > a > i {
   width: 15px;
   height: 15px;
   border-radius: 50%;
