@@ -215,7 +215,6 @@ body {
   display: block;
   max-width: 100%;
   width: 20rem;
-
 }
 
 .txt {
@@ -386,7 +385,7 @@ body {
   margin-top: 12px;
 }
 
-.editor-picks-list>*+* {
+.editor-picks-list > * + * {
   margin-top: 16px;
 }
 
