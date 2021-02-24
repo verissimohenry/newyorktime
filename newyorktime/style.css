@@ -351,13 +351,7 @@ body {
   font-size: 1.25rem;
   line-height: 1.875rem;
   color: #333;
-  position: left;
-  margin-left: auto;
-  margin-right: 500px;
-}
-
-.asbig {
-  position: left;
+  margin-left: 350px;
 }
 
 .inflation {
