@@ -1,5 +1,7 @@
 # newyorktime
 
+![screenshot](image.png/Screenshot.png) 
+
 # Project 1: Positioning and Floating Elements
 New York Times Article Clone
 
