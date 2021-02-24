@@ -14,7 +14,7 @@ UX and Forms
 ## LIVE DEMO
 
 [Live Demo Link](https://verissimohenry.github.io/newyorktime/
-nyt-article
+nyt-article)
 
 ## Authors
 
