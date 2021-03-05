@@ -91,7 +91,7 @@ body {
 
 /* ************************articles-flex-3***************************** */
 
-.layer_top1>a {
+.layer_top1 > a {
   width: auto;
   display: grid;
   color: white;
@@ -106,13 +106,13 @@ body {
   font-size: smaller;
 }
 
-.layer_top2>a {
+.layer_top2 > a {
   margin-left: 32%;
   color: #131313;
 }
 
 /*   highlight  */
-.part1>a {
+.part1 > a {
   color: #f42;
   font-weight: bolder;
   font-size: 23px;
@@ -146,7 +146,7 @@ body {
 
 /*   highlight  */
 
-.part1>a:hover {
+.part1 > a:hover {
   color: black;
 }
 
@@ -168,13 +168,13 @@ body {
 /*  highlight  */
 
 /*  highlight  */
-.before_image>p>a:hover {
+.before_image > p > a:hover {
   border-bottom: 1px solid #f42;
 }
 
 /*  highlight  */
 
-.layer_bot>div>span>a:hover {
+.layer_bot > div > span > a:hover {
   color: black;
 }
 
@@ -234,7 +234,9 @@ body {
 
 .art-cover {
   transition: background-color 0.4s ease;
-  background: rgba(0, 0, 0, 0.25) url("/public/m5zv-q2d6/20210126152646oe_/https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png") no-repeat;
+  background: rgba(0, 0, 0, 0.25)
+    url("/public/m5zv-q2d6/20210126152646oe_/https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png")
+    no-repeat;
   z-index: 2;
   display: block;
   position: absolute;
@@ -283,7 +285,7 @@ body {
   font-weight: bold;
 }
 
-#title1>h3>a {
+#title1 > h3 > a {
   color: #f42;
   font-size: 27px;
   display: block;
@@ -323,7 +325,7 @@ body {
   color: #adadad;
 }
 
-.section2_items>img {
+.section2_items > img {
   height: 100%;
   width: 100%;
 }
@@ -487,13 +489,13 @@ body {
   margin-top: 10px;
 }
 
-.part4>ul>li {
+.part4 > ul > li {
   border-bottom: 1px solid #eee;
   font-size: smaller;
   color: #3f3d3d;
 }
 
-.part4>ul {
+.part4 > ul {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   grid-row-gap: 20px;
@@ -697,13 +699,13 @@ ul li::before {
   margin-bottom: 150px;
 }
 
-#title3>div>a {
+#title3 > div > a {
   font-size: 22px;
   color: #f42;
   display: block;
 }
 
-#title3>div>p>a:hover {
+#title3 > div > p > a:hover {
   color: black;
 }
 
@@ -716,16 +718,16 @@ ul li::before {
   height: 72px;
 }
 
-.section5_items>img {
+.section5_items > img {
   width: 100%;
   height: 100%;
 }
 
-#title3>div>a:hover {
+#title3 > div > a:hover {
   color: black;
 }
 
-#title3>div>p>a:hover {
+#title3 > div > p > a:hover {
   color: black;
 }
 
@@ -854,7 +856,8 @@ ul li::before {
 }
 
 .img-right {
-  background: url(../Images/Anniversary_Schwab_Foundation_Gala_Dinner.jpg) no-repeat;
+  background: url(../Images/Anniversary_Schwab_Foundation_Gala_Dinner.jpg)
+    no-repeat;
   position: absolute;
   float: right;
   background-position: 50%;
@@ -890,7 +893,8 @@ ul li::before {
   clear: both;
 }
 
-.other-news {}
+.other-news {
+}
 
 /* Media Query */
 
@@ -1106,7 +1110,7 @@ ul li::before {
     height: 220px;
   }
 
-  .section2_items>img {
+  .section2_items > img {
     height: 135px;
     width: 100%;
   }
@@ -1185,7 +1189,9 @@ ul li::before {
   }
 
   .cover-gradient {
-    background: transparent url(/public/m5zv-q2d6/20210126152646oe_/https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png) no-repeat;
+    background: transparent
+      url(/public/m5zv-q2d6/20210126152646oe_/https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png)
+      no-repeat;
     background-position: 0 0;
     background-size: cover;
     bottom: 4px;
@@ -1196,7 +1202,7 @@ ul li::before {
     right: 4px;
     top: 4px;
     z-index: 4;
-}
+  }
 
   .na-3 {
     background-color: #fff;
@@ -1280,11 +1286,11 @@ ul li::before {
 
   /*  highlight  */
 
-  .section2_items>div {
+  .section2_items > div {
     display: grid;
   }
 
-  .section2_items>div>div {
+  .section2_items > div > div {
     display: flex;
     align-items: flex-start;
   }
@@ -1294,11 +1300,11 @@ ul li::before {
     grid-template-columns: 1fr 1fr 1fr;
   }
 
-  .section5_items>div {
+  .section5_items > div {
     margin-left: 5%;
   }
 
-  .section5_items>div>p>a {
+  .section5_items > div > p > a {
     font-size: 17px;
   }
 
@@ -1312,7 +1318,7 @@ ul li::before {
     height: 201px;
   }
 
-  .section5_items>img {
+  .section5_items > img {
     width: 100%;
     height: 201px;
   }
